@@ -1,4 +1,4 @@
-# Here we put the data for comparing the simulated signals from DS1.5 and DS1.0 with the corresponding raw signals.
+Here we put the data for comparing the simulated signals from DS1.5 and DS1.0 with the corresponding raw signals.
 
 In doing so, we first randomly sampled 100 raw signals, and obtained the ground-truth reference sequence, using the NA12878_Human_Chr21 dataset.
 

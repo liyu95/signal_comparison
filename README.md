@@ -1,5 +1,3 @@
-# README
-
 # For install
 Configure necessary environment. Only for the first time:
 ```

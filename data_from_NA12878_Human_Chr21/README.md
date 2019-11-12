@@ -3,7 +3,7 @@
 In doing so, we first randomly sampled 100 raw signals, and obtained the ground-truth reference sequence, using the NA12878_Human_Chr21 dataset.
 
 
-# part 1: signal simulation
+# Part 1: signal simulation
 We then simulate the signals by the folllwing two strategies:
 
 ## 1) simulated signals by DS1.0
@@ -18,7 +18,7 @@ deep_simulator.sh -i truth_fasta/<given_id>.fasta -n -1 -G 1 -e 1.0 -f 850 -s 1.
 ### [note]: these simulated signals are generated and stored in 'signal_sim_DS1.0/' and 'signal_sim_DS1.5/', respectively.
 
 
-# part 2: re-warp simulated signals
+# Part 2: re-warp simulated signals
 After the simulated signals are generated, we "re-warp" them to the same length as the raw signal, which faciliated the downstream analysis.
 
 To "re-warp" the 1st signal onto the 2nd signal (denoted as 'pivot' signal), please follow the below instructions:
